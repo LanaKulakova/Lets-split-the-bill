@@ -1,0 +1,89 @@
+body {
+    background-image: url("https://img.freepik.com/free-photo/traditional-supreme-pizza-black-stone_123827-20308.jpg?w=740&t=st=1680610589~exp=1680611189~hmac=4a9c3aed441b1924f89d3130f1a154a371ee596e246587071881f173d6721d66");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    background-color:rgba(94, 97, 93, 0.9);
+    }
+
+#container {
+background-color:rgba(183, 187, 182, 0.9);
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 600px;
+height: 725px;
+border-radius: 40px;
+color: white;
+    }
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
+    color: black;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+}
+
+#addTip {
+    background-color: #F7A440;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#btn {
+    background-color: #E1701A;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+    #tip {
+        font-family: 'Montserrat', sans-serif;
+        display: none;
+    }
+
+    #showTotalAmountToPay {
+        display: flex;
+    }
+
+    #billSplit, #totalTip, #totalAmount {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #5F8D4E;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid black;
+
+    }
+
+
+    @media all and (max-width: 800px) {
+        #container {
+            width: 98%;
+            }
+        }
+    
+    
+    
+    @media all and (max-width: 500px) {
+        #container {
+            width: 98%;
+            }
+    }
